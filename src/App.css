@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: white;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: 'Hanken Grotesk';
+
+
+
+}
+
+.resultField {
+    height: 480px;
+    width: 700px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.yourResult {
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    padding: 40px;
+
+}
+
+.resultContent {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.yourResultText {
+    p {
+        color: white;
+        font-size: 24px;
+        color: rgb(209, 206, 206);
+    }
+
+}
+
+.resultPoint {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin-top: 25px;
+}
+
+.greatText {
+    margin-top: 30px;
+    color: white;
+
+    p {
+        margin-top: 10px;
+        font-size: 20px;
+        color: rgb(209, 206, 206);
+    }
+}
+
+.resultPoint {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+    h1 {
+        font-size: 80px;
+    }
+
+    p {
+        color: rgb(209, 206, 206);
+    }
+}
+
+.summary {
+    height: 100%;
+    width: 50%;
+    padding: 20px 15px 15px 15px;
+}
+
+.statisticis {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sectionText1 {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+
+    p {
+        color: hsl(0, 100%, 67%);
+
+    }
+}
+
+.statPoint1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        color: rgb(209, 206, 206);
+        margin-left: 5px;
+    }
+}
+
+.statSection1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    height: 40px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: #f5efed;
+    margin-bottom: 15px;
+}
+
+.sectionText2 {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+
+    p {
+        color: hsl(39, 100%, 56%);
+
+    }
+}
+
+.statSection2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    height: 40px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: #f8f8ca;
+    margin-bottom: 15px;
+}
+
+.statPoint2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        color: rgb(209, 206, 206);
+        margin-left: 5px;
+    }
+}
+
+.sectionText3 {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+
+    p {
+        color: hsl(166, 100%, 37%)
+    }
+}
+
+.statSection3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    height: 40px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: #F2FBFA;
+    margin-bottom: 15px;
+}
+
+.statPoint3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        color: rgb(209, 206, 206);
+        margin-left: 5px;
+    }
+}
+
+.sectionText4 {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+
+    p {
+        color: hsl(234, 85%, 45%)
+    }
+}
+
+.statSection4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    height: 40px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: #F3F3FF;
+    margin-bottom: 15px;
+}
+
+.statPoint4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        color: rgb(209, 206, 206);
+        margin-left: 5px;
+    }
+}
+
+.continue {
+    margin-top: 30px;
+    text-align: center;
+
+    button {
+        padding: 15px;
+        background-color: #303B5A;
+        color: white;
+        width: 90%;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .container {
+        background-color: white;
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 0px;
+    }
+
+    
+    .resultField {
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .yourResult {
+        width: 90%;
+        height: 50%;
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        border-radius: 20px;
+        padding: 40px;
+    
+    }
+
+    .summary {
+        height: 50%;
+        width: 90%;
+        padding: 20px 15px 15px 15px;
+    }
+}
